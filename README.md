@@ -44,6 +44,9 @@
 
 In this simple 2D top-down survival shooter, your objective is to eliminate as many opponents as possible before your own defeat. Navigate the map full of obstacles and be careful because the opponents can shoot you back! You must avoid them and their bullets in order to avoid taking damage.
 
+![Gameplay 1](https://github.com/AndraCristiana07/Survival-Shooter/blob/main/images/1.png?raw=true)
+![Gameplay 2](https://github.com/AndraCristiana07/Survival-Shooter/blob/main/images/2.png?raw=true)
+
 * **Player** :
 The player is represented by several geometric primitives, suggestively positioned, so that the direction in which the player looks is clear. The direction in which the user looks is given by the mouse cursor. It moves on the X and Y axes (up, left, down, right), with the W, A, S, D keys.
 
@@ -54,7 +57,7 @@ The camera will permanently follow the player (the player will be drawn all the 
 Enemies are still represented by simple geometric shapes, but with other colors/primitives, so that they differentiate themselves from the player. Enemies will spawn continuously throughout the game, either one at a time or in waves. Each enemy has a different movement speed. Enemies disappear when hit by a player's projectile. Enemies must continuously follow the player. 
 
 * **Gameplay** :
-The goal of the game is for the player to survive the enemies as long as possible. The player starts from a maximum health level. With each collision with an enemy, this level decreases. If the level drops to 0, then the player dies and the game ends.
+The goal of the game is for the player to survive the enemies as long as possible. The player starts from a maximum health level. With each collision with an enemy, this level decreases. If the level drops to 0, then the player dies and the game ends. There are also pick ups on the map that will increase yout health.
 
 
 
